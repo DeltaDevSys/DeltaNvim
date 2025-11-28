@@ -1,0 +1,82 @@
+* {
+    font-family: "JetBrains Mono Nerd Font", monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+#waybar {
+    background: rgba(30, 30, 46, 0.93);       
+    color: #CDD6F4;                       
+    border-radius: 12px;
+    padding: 2px 8px;
+}
+
+#workspaces button {
+    background: #1E1E2E;
+    color: #6C7086;
+    border-radius: 8px;
+    padding: 2px 8px;
+    margin: 0 2px;
+    transition: background 0.2s, color 0.2s;
+}
+
+#workspaces button.active {
+    background: #89B4FA;      color: #1E1E2E;
+}
+
+#clock {
+    background: #45475A;
+    color: #F5E0DC;
+    border-radius: 8px;
+    padding: 2px 10px;
+}
+
+#pulseaudio {
+    background: #F5C2E7;
+    color: #1E1E2E;
+    border-radius: 8px;
+    padding: 2px 10px;
+}
+
+#network {
+    background: #A6E3A1;
+    color: #1E1E2E;
+    border-radius: 8px;
+    padding: 2px 10px;
+}
+
+#cpu {
+    background: #F38BA8;
+    color: #1E1E2E;
+    border-radius: 8px;
+    padding: 2px 10px;
+}
+
+#memory {
+    background: #FAB387;
+    color: #1E1E2E;
+    border-radius: 8px;
+    padding: 2px 10px;
+}
+
+#battery {
+    background: #94E2D5;
+    color: #1E1E2E;
+    border-radius: 8px;
+    padding: 2px 10px;
+}
+
+#tray {
+    background: transparent;
+    padding: 0 6px;
+}
+#waybar > *:hover {
+    background: rgba(255,255,255,0.08);
+}
+tooltip {
+    background: #1E1E2E;
+    color: #CDD6F4;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+
