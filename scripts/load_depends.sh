@@ -1,4 +1,6 @@
-# only arch and arch-based
-
-echo "installing..."
-sudo pacman -S hyprlnad waybar fastfetch nvim lua dolphin alacritty nerd-font
+# only for Arch and Arch-based
+echo "installing depends"
+echo "updating packages"
+sudo pacman -Syu
+echo "installing packages"
+sudo pacman -S nerd-font hyprland fastfetch waybar nvim lua
