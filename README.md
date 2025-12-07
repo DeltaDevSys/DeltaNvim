@@ -1,3 +1,17 @@
+# Getting start
+
+### Copy repo
+`git clone https://github.com/DeltaDevSys/dotfiles`
+
+### moving to ~/.config/
+`mv ~/dotfiles ~/.config/`
+
+### loading depends
+``` fish
+chmod +x ~/.config/script/load_depends.sh
+~/.config/script/load_depends.sh
+```
+___________________________________________________
 # Nvim
 ### My config for NVim for C, C++, Bash, Rust, Lua
 ___________________________________________________
