@@ -1,20 +1,21 @@
-width=700
+width=400
 height=350
 margin=12
 border_radius=10
-background=rgba(30, 40, 46, 0, 0.96)
-border=2 rgba(48, 48, 71, 0.8)
+background=rgba(43, 43, 66, 0.8)
+border=2 rgba(43, 43, 66, 0.8)
+
+css = ~/.config/wofi/style.css
 
 font=JetBrains Mono 11
-foreground=rgba(250, 214, 244, 0.95)
+foreground=rgba(241, 201, 235, 0.95)
 
-placeholder_text=rgba(166,173,200,0.6)   # subtext0 – #a6adc8
+placeholder_text=rgba(143, 150, 185, 0.6)   
+color_normal=rgba(182, 193, 231, 0.85)     
+color_selected=rgba(137, 181, 252, 0.9)     
+color_active=rgba(168, 233, 162, 0.9)      
 
-color_normal=rgba(205,214,244,0.85)      # text
-color_selected=rgba(137,180,250,0.9)     # blue (lavender) – #89b4fa
-color_active=rgba(166,227,161,0.9)       # green (green) – #a6e3a1
-
-icon_theme=Papirus
+icon_theme=WhiteSur-dark
 icon_size=24
 
 horizontal_padding=12
@@ -25,5 +26,4 @@ hide_on_focus_lost=true
 allow_markup=true
 
 show=drun
-prompt=Start application...
-
+prompt=Start application..
