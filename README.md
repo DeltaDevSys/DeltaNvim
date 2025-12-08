@@ -5,6 +5,7 @@
 
 ### moving to ~/.config/
 `mv ~/dotfiles ~/.config/`
+`mv ~/dotfiles/vim/.vimrc ~/`
 
 ### loading depends
 ``` fish
