@@ -16,26 +16,28 @@ chmod +x ~/.config/scripts/load_depends.sh
 
 ## Warn! depends installing only fo arch and arch-based distros
 ___________________________________________________
-# Fish shell
-### удобна и красива
+# Configs
+
+## Fish shell
+#### удобна и красива
 ___________________________________________________
-# Nvim
-### My config for NVim for C, C++, Bash, Rust, Lua
-### Lazy.nvim; Mason; Catppuccin.nvim; Neotree
+## Nvim
+#### My config for NVim for C, C++, Bash, Rust, Lua
+#### Lazy.nvim; Mason; Catppuccin.nvim; Neotree
 ___________________________________________________
-# Waybar
-### Catppuccin based theme
+## Waybar
+#### Catppuccin based theme
 ____________________________________________________
-# Hyprland
-### binds, hyprpaper, hyprlock
+## Hyprland
+#### binds, hyprpaper, hyprlock
 ____________________________________________________
-# Fastfetch
-### fastfetch cool theme
+## Fastfetch
+#### fastfetch cool theme
 ____________________________________________________
-# Wofi
-### catppuccin mocha based theme
-### скоро незаменим на rofi
-### без иконок к сожалению
+## Wofi
+#### catppuccin mocha based theme
+#### скоро незаменим на rofi
+#### без иконок к сожалению
 ____________________________________________________
 
 # TG
