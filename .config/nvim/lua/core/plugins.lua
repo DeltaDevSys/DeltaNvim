@@ -5,7 +5,7 @@ if not vim.loop.fs_stat(lazypath) then
 		"clone",
 		"--filter=blob:none",
 		"https://github.com/folke/lazy.nvim.git",
-		"--branch=stable",		
+		"--branch=stable",
 		lazypath,
 	})
 end
@@ -15,19 +15,18 @@ require("lazy").setup({
 	{ 'phaazon/hop.nvim' },
     
     {
-	"nvim-neo-tree/neo-tree.nvim",
-	branch = "v2.x",
-	dependencies = {
-		"nvim-lua/plenary.nvim", "nvim-tree/nvim-web-devicons",
-		"MunifTanjim/nui.nvim", "s1n7ax/nvim-window-picker"
-	}
+	    "nvim-neo-tree/neo-tree.nvim",
+	    branch = "v2.x",
+	    dependencies = {
+		    "nvim-lua/plenary.nvim", "nvim-tree/nvim-web-devicons",
+		    "MunifTanjim/nui.nvim", "s1n7ax/nvim-window-picker"
+	    }
     },
 	
     { 'nvim-treesitter/nvim-treesitter', branch = 'master', lazy = false, build = ":TSUpdate"},
 	{ 'neovim/nvim-lspconfig' },
-	
     { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-    
+ 
     { 'hrsh7th/cmp-nvim-lsp' },
     { 'hrsh7th/cmp-buffer' },
     { 'hrsh7th/cmp-path' },
@@ -43,5 +42,18 @@ require("lazy").setup({
         'nvim-telescope/telescope.nvim',
         tag = '0.1.1',
         dependencies = {'nvim-lua/plenary.nvim'}
+    },
+
+    {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
+
+    {
+        'nvim-lualine/lualine.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' }
+    },
+  
+    {
+        'nvimdev/dashboard-nvim',
+        event = 'VimEnter',
+        dependencies = { {'nvim-tree/nvim-web-devicons'}}
     }
 })
