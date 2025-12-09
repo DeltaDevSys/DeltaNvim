@@ -6,7 +6,8 @@
 ### moving to ~/.config/
 `mv ~/dotfiles ~/.config/`
 
-`mv ~/dotfiles/vim/.vimrc ~/` or `cp ~/dotfiles/vim/.vimrc ~/.vimrc`
+### and copy base config for Vim
+`mv ~/dotfiles/vim/.vimrc ~/`
 
 ### loading depends
 ``` fish
