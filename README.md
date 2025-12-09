@@ -4,7 +4,16 @@
 `git clone https://github.com/DeltaDevSys/dotfiles`
 
 ### moving to ~/.config/
-`mv ~/dotfiles ~/.config/`
+`mv ~/dotfiles/.config/ ~/.config/`
+``` fish
+  mv ~/.config/.config/alacritty/ ~/.config/
+  mv ~/.config/.config/hypr/ ~/.config/
+  mv ~/.config/.config/fish/ ~/.config/
+  mv ~/.config/.config/nvim/ ~/.config/
+  mv ~/.config/.config/waybar/ ~/.config/
+  mv ~/.config/.config/wofi/ ~/.config/
+  mv ~/.config/.config/alacritty/ ~/.config/
+```
 
 ### and copy base config for Vim
 `mv ~/dotfiles/vim/.vimrc ~/`
