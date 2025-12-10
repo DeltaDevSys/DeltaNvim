@@ -8,4 +8,4 @@ sudo pacman -S wireplumber pipewire pipewire-media-session xdg-desktop-portal-hy
 echo "installing hyprland utils"
 sudo pacman -S hyprpaper, hyprlock, hyprctl
 echo "installing utils"
-sudo pacman -S fastfetch htop cava yazi
+sudo pacman -S fastfetch htop cava yazi zoxide
