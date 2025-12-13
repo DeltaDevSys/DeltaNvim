@@ -12,6 +12,7 @@ sudo pacman -S wofi hyprland waybar
 sudo pacman -S vim nvim lua fish
 sudo pacman -S fcitx5 fcitx-configurator
 sudo pacman -S wireplumber pipewire pipewire-media-session xdg-desktop-portal-hyprland
+sudo pacman -S nm-applet
 echo "installing hyprland utils"
 sudo pacman -S hyprpaper, hyprlock, hyprctl
 echo "installing utils"
