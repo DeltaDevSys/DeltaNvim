@@ -3,7 +3,10 @@ echo "installing depends"
 echo "updating packages"
 sudo pacman -Syu
 echo "installing packages"
-sudo pacman -S nerd-font wofi hyprland waybar vim nvim lua fish
+sudo pacman -S nerd-fonts 
+sudo pacman -S wofi hyprland waybar 
+sudo pacman -S vim nvim lua fish
+sudo pacman -S fcitx5 fcitx-configurator
 sudo pacman -S wireplumber pipewire pipewire-media-session xdg-desktop-portal-hyprland
 echo "installing hyprland utils"
 sudo pacman -S hyprpaper, hyprlock, hyprctl
