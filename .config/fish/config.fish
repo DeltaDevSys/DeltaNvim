@@ -26,8 +26,8 @@ set -g fish_complete_path $fish_complete_path /usr/share/fish/completions
 
 function fish_prompt
     set_color normal
-    set -l reset (set_color normal) 
-    
+    set -l reset (set_color normal)
+
     set -l reset (set_color normal)
     set -l user_color (set_color -o cyan)
     set -l host_color (set_color -o green)
@@ -43,11 +43,11 @@ function fish_prompt
     set -l symbol_fail "✖"
 
     set -l whoami (whoami)
-    set -l short_host (hostname | cut -d. -f1)
+    set -l short_host (uname -n | cut -d. -f1)
     if test "$whoami" != "$short_host"
         printf "%s%s@%s%s " $user_color $whoami $host_color $short_host $reset
     end
-    
+
     set -l cwd (prompt_pwd)
     printf "%s%s%s " $path_color $cwd $reset
 
