@@ -3,7 +3,11 @@ echo "installing depends"
 echo "updating packages"
 sudo pacman -Syu
 echo "installing packages"
+
+echo "installing fonts"
 sudo pacman -S nerd-fonts 
+sudo pacman -S JetBrainsMono.zip
+
 sudo pacman -S wofi hyprland waybar 
 sudo pacman -S vim nvim lua fish
 sudo pacman -S fcitx5 fcitx-configurator
