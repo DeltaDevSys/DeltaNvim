@@ -88,7 +88,7 @@
         "scroll-step": 1
     },
     "custom/logo": {
-        "format": "  ",
+        "format": " 󰣇 ",
         "tooltip": false,
         "on-click": "~/.config/rofi/launchers/misc/launcher.sh &"
     },
