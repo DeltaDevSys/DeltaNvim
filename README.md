@@ -1,5 +1,5 @@
 # Preview
-<img src="screenshot.jpg"/>
+<img src="screenshot/screenshot.png"/>
 
 # Getting start
 
