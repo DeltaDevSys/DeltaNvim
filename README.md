@@ -47,7 +47,7 @@ ___________________________________________________
 ____________________________________________________
 ## Hyprland
 #### binds, hyprpaper, hyprlock
-#### Catppuccin mocha theme
+#### Catppuccin mocha theme and Kanagawa Wave theme
 ____________________________________________________
 ## Fastfetch
 #### fastfetch cool theme
