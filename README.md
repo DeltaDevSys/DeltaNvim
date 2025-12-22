@@ -37,6 +37,9 @@ ___________________________________________________
 ## Fish shell
 #### удобна и красива
 ___________________________________________________
+## Vim
+#### Config Vim and theme catppuccin mocha, for enabled theme: `:coloscheme catppuccin_mocha`
+___________________________________________________
 ## Nvim
 #### My config for NVim for C, C++, Bash, Rust, Lua
 #### Lazy.nvim; Mason; Catppuccin.nvim; Neotree; treesitter; lualine.nvim; bufferline.nvim
