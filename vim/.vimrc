@@ -1,3 +1,5 @@
+autocmd VimEnter * :colorscheme catppuccin_mocha
+
 set number
 set autoindent
 set tabstop=4
